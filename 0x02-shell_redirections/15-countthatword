@@ -1,3 +1,4 @@
 #!/bin/bash
-$egrep  -C $(bin) /etc/passwd
+egrep  -C "$bin" /etc/passwd
+
 
